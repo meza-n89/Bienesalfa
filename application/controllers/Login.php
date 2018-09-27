@@ -21,7 +21,7 @@ class Login extends CI_controller
 		$this->load->library('session');
 		if($this->session->userdata('id')!=NULL)
 		{
-			redirect('dashboard/index');
+			redirect('Show/show_user');
 		}
 		$this->load->helper('url');
 		$this->load->view('login');
