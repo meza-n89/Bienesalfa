@@ -437,7 +437,7 @@
                         alert('El usuario o la contraseña es incorrecto');
                     break;
                     case '1':
-                        location.href='<?php echo site_url();?>/Dashboard';
+                        location.href='<?php echo site_url();?>/Show/show_user';
                     break;
                     case '2':
                         location.href='<?php echo site_url();?>/Login/dshuser_view';

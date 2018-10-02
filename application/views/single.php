@@ -2,13 +2,12 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> 
-<html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-       <meta charset="utf-8">
+        <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>GARO ESTATE | Contact page</title>
-        <meta name="description" content="company is a real-estate template">
+        <title>GARO ESTATE | single page</title>
+        <meta name="description" content="GARO is a real-estate template">
         <meta name="author" content="Kimarotec">
         <meta name="keyword" content="html5, css, bootstrap, property, real-estate theme , bootstrap template">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,6 +41,7 @@
         </div>
         <!-- Body content -->
 
+       
         <div class="header-connect">
             <div class="container">
                 <div class="row">
@@ -90,7 +90,7 @@
                         <button class="navbar-btn nav-button wow fadeInRight" onclick=" window.open('submit-property.html')" data-wow-delay="0.48s">Haz una cita</button>
                     </div>
                     <ul class="main-nav nav navbar-nav navbar-right">
-                         <li class="" data-wow-delay="0.1s">
+                          <li class="" data-wow-delay="0.1s">
                             <a href="<?php echo site_url();?>/Welcome"   data-hover="dropdown" data-delay="200">Inicio<b class="caret"></b></a>
                        
                         </li>
@@ -188,98 +188,175 @@
             <div class="container">
                 <div class="row">
                     <div class="page-head-content">
-                        <h1 class="page-title">Contact page</h1>               
+                        <h1 class="page-title">Acerca de nosotros</h1>               
                     </div>
                 </div>
             </div>
         </div>
         <!-- End page header -->
 
-        <!-- property area -->
-        <div class="content-area recent-property padding-top-40" style="background-color: #FFF;">
-            <div class="container">  
+        <div class="content-area blog-page padding-top-40" style="background-color: #FCFCFC; padding-bottom: 55px;">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2"> 
-                        <div class="" id="contact1">                        
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <h3><i class="fa fa-map-marker"></i> Address</h3>
-                                    <p>13/25 shibuia
-                                        <br>Tokyo 
-                                        <br>45Y 73J 
-                                        <br>
-                                        <strong>Japan</strong>
+                    <div class="blog-lst col-md-12 pl0">
+                        <section id="id-100" class="post single">
+
+                            <div class="post-header single">
+                                <div class="">
+                                    <h2 class="wow fadeInLeft animated">Agente inmoviliario Remax central</h2>
+                                    <div class="title-line wow fadeInRight animated"></div>
+                                </div>
+                            
+                                <div class="image wow fadeInRight animated"> 
+                                    <img src="assets/img/blog2.jpg" class="img-responsive" alt="Example blog post alt">
+                                </div>
+                            </div> 
+
+                            <div id="post-content" class="post-body single wow fadeInLeft animated">
+                                <p>
+                                    <strong>Pellentesque habitant morbi tristique</strong> 
+                                    senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
+                                    semper. <em>Aenean ultricies mi vitae est.</em> 
+                                    Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean
+                                    fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+                                <p>
+                                    <img src="assets/img/blog10.jpg" class="img-responsive" alt="Example blog post alt">
+                                </p>
+
+                                <h2>Header Level 2</h2>
+                                <ol>
+                                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li>Aliquam tincidunt mauris eu risus.</li>
+                                </ol>
+
+                                <blockquote>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada
+                                        tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.
+                                    </p>
+                                </blockquote>
+
+                                <h3>Header Level 3</h3>
+
+                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+                                    ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt
+                                <ul>
+                                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                    <li>Aliquam tincidunt mauris eu risus.</li>
+                                </ul>
+                                <p>
+                                    <img src="assets/img/blog.jpg" class="img-responsive" alt="Example blog post alt">
+                                </p>
+                                <p>
+                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+                                    condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros
+                                    eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+                                </p>
+
+                            </div>
+                            <div class="post-footer single wow fadeInBottum animated">
+                                <ul class="pager">
+                                    <li class="previous"><a href="#"><i class=""></i>← Older </a></li>
+                                    <li class="next disabled"><a href="#">Newer →<i class=""></i> </a></li>
+                                </ul> 
+                            </div>    
+
+                        </section> 
+
+                        <section class="about-autor">
+
+                        </section>
+
+                        <section id="comments" class="comments wow fadeInRight animated"> 
+                            <h4 class="text-uppercase wow fadeInLeft animated">3 comments</h4>
+
+
+                            <div class="row comment">
+                                <div class="col-sm-3 col-md-2 text-center-xs">
+                                    <p>
+                                        <img src="assets/img/client-face1.png" class="img-responsive img-circle" alt="">
                                     </p>
                                 </div>
-                                <!-- /.col-sm-4 -->
-                                <div class="col-sm-4">
-                                    <h3><i class="fa fa-phone"></i> Call center</h3>
-                                    <p class="text-muted">This number is toll free if calling from
-                                        Great Britain otherwise we advise you to use the electronic
-                                        form of communication.</p>
-                                    <p><strong>+33 555 444 333</strong></p>
+                                <div class="col-sm-9 col-md-10">
+                                    <h5 class="text-uppercase">Julie Alma</h5>
+                                    <p class="posted"><i class="fa fa-clock-o"></i> September 23, 2011 at 12:00 am</p>
+                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
+                                        Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                                    <p class="reply"><a href="#"><i class="fa fa-reply"></i> Reply</a>
+                                    </p>
                                 </div>
-                                <!-- /.col-sm-4 -->
-                                <div class="col-sm-4">
-                                    <h3><i class="fa fa-envelope"></i> Electronic support</h3>
-                                    <p class="text-muted">Please feel free to write an email to us or to use our electronic ticketing system.</p>
-                                    <ul>
-                                        <li><strong><a href="mailto:">info@company.com</a></strong>   </li>
-                                        <li><strong><a href="#">Ticketio</a></strong> - our ticketing support platform</li>
-                                    </ul>
-                                </div>
-                                <!-- /.col-sm-4 -->
                             </div>
-                            <!-- /.row -->
-                            <hr>
-                            <div id="map"></div>
-                            <hr>
-                            <h2>Contact form</h2>
+                            <!-- /.comment -->
+
+
+                            <div class="row comment last">
+
+                                <div class="col-sm-3 col-md-2 text-center-xs">
+                                    <p>
+                                        <img src="assets/img/client-face2.png" class="img-responsive img-circle" alt="">
+                                    </p>
+                                </div>
+
+                                <div class="col-sm-9 col-md-10">
+                                    <h5 class="text-uppercase">Louise Armero</h5>
+                                    <p class="posted"><i class="fa fa-clock-o"></i> September 23, 2012 at 12:00 am</p>
+                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
+                                        Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                                    <p class="reply"><a href="#"><i class="fa fa-reply"></i> Reply</a>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <!-- /.comment -->
+                        </section>
+
+                        <section id="comment-form" class="add-comments">
+                            <h4 class="text-uppercase wow fadeInLeft animated">Leave comment</h4>
                             <form>
-                                <div class="row">
+                                <div class="row wow fadeInLeft animated">
                                     <div class="col-sm-6">
                                         <div class="form-group">
-                                            <label for="firstname">Firstname</label>
-                                            <input type="text" class="form-control" id="firstname">
+                                            <label for="name">Name <span class="required">*</span>
+                                            </label>
+                                            <input class="form-control" id="name" type="text">
                                         </div>
                                     </div>
+                                </div>
+
+                                <div class="row wow fadeInLeft animated">
                                     <div class="col-sm-6">
                                         <div class="form-group">
-                                            <label for="lastname">Lastname</label>
-                                            <input type="text" class="form-control" id="lastname">
+                                            <label for="email">Email <span class="required">*</span>
+                                            </label>
+                                            <input class="form-control" id="email" type="text">
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <label for="email">Email</label>
-                                            <input type="text" class="form-control" id="email">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-group">
-                                            <label for="subject">Subject</label>
-                                            <input type="text" class="form-control" id="subject">
-                                        </div>
-                                    </div>
+                                </div>
+
+                                <div class="row wow fadeInLeft animated">
                                     <div class="col-sm-12">
                                         <div class="form-group">
-                                            <label for="message">Message</label>
-                                            <textarea id="message" class="form-control"></textarea>
+                                            <label for="comment">Comment <span class="required">*</span>
+                                            </label>
+                                            <textarea class="form-control" id="comment" rows="4"></textarea>
                                         </div>
                                     </div>
-                                    <div class="col-sm-12 text-center">
-                                        <button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o"></i> Send message</button>
+                                </div>
+
+                                <div class="row wow fadeInLeft animated">
+                                    <div class="col-sm-12 text-right">
+                                        <button class="btn btn-primary"><i class="fa fa-comment-o"></i> Post comment</button>
                                     </div>
                                 </div>
-                                <!-- /.row -->
                             </form>
-                        </div>
-                    </div>    
+                        </section>
+                    </div>                                 
                 </div>
+
             </div>
         </div>
 
-  <!-- Footer area-->
+          <!-- Footer area-->
         <div class="footer-area">
 
             <div class=" footer">
@@ -417,9 +494,9 @@
 
         </div>
 
-        <script src="assets/js/modernizr-2.6.2.min.js"></script>
+        <script src="<?php echo base_url();?>/assets/js/modernizr-2.6.2.min.js"></script>
 
-        <script src="<?php echo base_url();?>/assets/js/jquery-1.10.2.min.js"></script> 
+        <script src="<?php echo base_url();?>/assets/js/jquery-1.10.2.min.js"></script>
         <script src="<?php echo base_url();?>/bootstrap/js/bootstrap.min.js"></script>
         <script src="<?php echo base_url();?>/assets/js/bootstrap-select.min.js"></script>
         <script src="<?php echo base_url();?>/assets/js/bootstrap-hover-dropdown.js"></script>
@@ -432,12 +509,8 @@
 
         <script src="<?php echo base_url();?>/assets/js/icheck.min.js"></script>
         <script src="<?php echo base_url();?>/assets/js/price-range.js"></script>
-        
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-        <script src="<?php echo base_url();?>/assets/js/gmaps.js"></script>        
-        <script src="<?php echo base_url();?>/assets/js/gmaps.init.js"></script>
 
         <script src="<?php echo base_url();?>/assets/js/main.js"></script>
-
+       
     </body>
 </html>

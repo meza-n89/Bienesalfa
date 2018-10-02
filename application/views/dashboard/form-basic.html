@@ -9,10 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url();?>/assetsD/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon.png">
     <title>Nice admin Template - The Ultimate Multipurpose admin template</title>
     <!-- Custom CSS -->
-    <link href="<?php echo base_url();?>/dist/css/style.min.css" rel="stylesheet">
+    <link href="../../dist/css/style.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -54,17 +54,17 @@
                             <b class="logo-icon">
                                 <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                                 <!-- Dark Logo icon -->
-                                <img src="<?php echo base_url();?>/assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                                <img src="../../assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
                                 <!-- Light Logo icon -->
-                                <img src="<?php echo base_url();?>/assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                                <img src="../../assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
                             </b>
                             <!--End Logo icon -->
                             <!-- Logo text -->
                             <span class="logo-text">
                                 <!-- dark Logo text -->
-                                <img src="<?php echo base_url();?>/assets/images/logo-text.png" alt="homepage" class="dark-logo" />
+                                <img src="../../assets/images/logo-text.png" alt="homepage" class="dark-logo" />
                                 <!-- Light Logo text -->
-                                <img src="<?php echo base_url();?>/assets/images/logo-light-text.png" class="light-logo" alt="homepage" />
+                                <img src="../../assets/images/logo-light-text.png" class="light-logo" alt="homepage" />
                             </span>
                         </a>
                     </div>
@@ -233,51 +233,38 @@
                         <div class="card card-body">
                             <h4 class="card-title">Default Forms</h4>
                             <h5 class="card-subtitle"> All bootstrap element classies </h5>
-                            <form class="form-horizontal m-t-30" action="<?php echo site_url();?>/Dash_regprop/Insert_prop" method="post" >
+                            <form class="form-horizontal m-t-30">
                                 <div class="form-group">
-                                    <label>Nombre de la propiedad <span class="help"></span></label>
-                                    <input type="text" name="nombre" class="form-control" value="George deo...">
-                                </div>
-                                <div class="form-group">
-                                    <label>Area <span class="help"></span></label>
-                                    <input type="number" name="area" step="any" class="form-control" value="">
+                                    <label>Default Text <span class="help"> e.g. "George deo"</span></label>
+                                    <input type="text" class="form-control" value="George deo...">
                                 </div>
                                 <div class="form-group">
-                                    <label>Habitaciones <span class="help"></span></label>
-                                    <input type="number" name="habitaciones" class="form-control" value="">
+                                    <label for="example-email">Email <span class="help"> e.g. "example@gmail.com"</span></label>
+                                    <input type="email" id="example-email" name="example-email" class="form-control" placeholder="Email">
                                 </div>
                                 <div class="form-group">
-                                    <label>Baños<span class="help"></span></label>
-                                    <input type="number" name="baño" class="form-control" value="">
+                                    <label>Password</label>
+                                    <input type="password" class="form-control" value="password">
                                 </div>
-                                   <div class="form-group">
-                                    <label>Garaje<span class="help"></span></label>
-                                    <input type="number"  name="garaje" class="form-control" value="">
-                                </div>
-                                 <div class="form-group">
-                                    <label>Direccion<span class="help"></span></label>
-                                    <input type="text"  name="direccion" class="form-control" value="">
-                                </div>
-                                   <div class="form-group">
-                                    <label>Tipo del terreno</label>
-                                    <select class="custom-select col-12" name="tipoprop" id="inlineFormCustomSelect">
-                                        <option selected>Escoja una opcion..</option>
-                                        <option value="1">Edificio</option>
-                                        <option value="2">Terreno</option>
-                                        <option value="3">Casa recreacional</option>
-                                        <option value="3">Rancho de playa</option>
-                                        <option value="3">Casa recreacional</option>
-                                    </select>
-                                </div>
-                             
-                               
                                 <div class="form-group">
-                                    <label>Descripcion</label>
-                                    <textarea name="descripcion" class="form-control" rows="5"></textarea>
+                                    <label>Placeholder</label>
+                                    <input type="text" class="form-control" placeholder="placeholder">
                                 </div>
-                               
-                             
-                                <!--<div class="form-group row p-t-20">
+                                <div class="form-group">
+                                    <label>Text area</label>
+                                    <textarea class="form-control" rows="5"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label>Read only input</label>
+                                    <input class="form-control" type="text" placeholder="Readonly input here…" readonly>
+                                </div>
+                                <div class="form-group">
+                                    <fieldset disabled>
+                                        <label for="disabledTextInput">Disabled input</label>
+                                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                                    </fieldset>
+                                </div>
+                                <div class="form-group row p-t-20">
                                     <div class="col-sm-4">
                                         <div class="custom-control custom-checkbox">
                                             <input type="checkbox" class="custom-control-input" id="customCheck1">
@@ -302,16 +289,36 @@
                                             <label class="custom-control-label" for="customRadio2">Toggle this custom radio</label>
                                         </div>
                                     </div>
-                                </div>-->
-                      
-                                <div class="form-group">
-                                    <label>Subir imagenes de la propiedad</label>
-                                    <input type="file" name="imagen1" class="form-control">
-                                    <input type="file" name="imagen2"  class="form-control">
-                                    <input type="file" name="imagen3"  class="form-control">
                                 </div>
-                          
-                          <input type="submit" >
+                                <div class="form-group">
+                                    <label>Input Select</label>
+                                    <select class="custom-select col-12" id="inlineFormCustomSelect">
+                                        <option selected>Choose...</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Default file upload</label>
+                                    <input type="file" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Custom File upload</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">Upload</span>
+                                        </div>
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input" id="inputGroupFile01">
+                                            <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Helping text</label>
+                                    <input type="text" class="form-control" placeholder="Helping text">
+                                    <span class="help-block"><small>A block of help text that breaks onto a new line and may extend beyond one line.</small></span> </div>
                             </form>
                         </div>
                     </div>
@@ -351,18 +358,18 @@
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
-    <script src="<?php echo base_url();?>/assetsD/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/libs/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
-    <script src="<?php echo base_url();?>/assetsD/libs/popper.js/dist/umd/popper.min.js"></script>
-    <script src="<?php echo base_url();?>/assetsD/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- slimscrollbar scrollbar JavaScript -->
-    <script src="<?php echo base_url();?>/assetsD/extra-libs/sparkline/sparkline.js"></script>
+    <script src="../../assets/extra-libs/sparkline/sparkline.js"></script>
     <!--Wave Effects -->
-    <script src="<?php echo base_url();?>/dist/js/waves.js"></script>
+    <script src="../../dist/js/waves.js"></script>
     <!--Menu sidebar -->
-    <script src="<?php echo base_url();?>/dist/js/sidebarmenu.js"></script>
+    <script src="../../dist/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
-    <script src="<?php echo base_url();?>/dist/js/custom.min.js"></script>
+    <script src="../../dist/js/custom.min.js"></script>
 </body>
 
 </html>

@@ -18,21 +18,21 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-        <link rel="stylesheet" href="assets/css/normalize.css">
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/fontello.css">
-        <link href="assets/fonts/icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
-        <link href="assets/fonts/icon-7-stroke/css/helper.css" rel="stylesheet">
-        <link href="assets/css/animate.css" rel="stylesheet" media="screen">
-        <link rel="stylesheet" href="assets/css/bootstrap-select.min.css"> 
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/icheck.min_all.css">
-        <link rel="stylesheet" href="assets/css/price-range.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.css">  
-        <link rel="stylesheet" href="assets/css/owl.theme.css">
-        <link rel="stylesheet" href="assets/css/owl.transitions.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/normalize.css">
+        <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/fontello.css">
+        <link href="<?php echo base_url();?>/assets/fonts/icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
+        <link href="<?php echo base_url();?>/assets/fonts/icon-7-stroke/css/helper.css" rel="stylesheet">
+        <link href="<?php echo base_url();?>/assets/css/animate.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/bootstrap-select.min.css"> 
+        <link rel="stylesheet" href="<?php echo base_url();?>/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/icheck.min_all.css">
+        <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/price-range.css">
+        <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/owl.carousel.css">  
+        <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/owl.theme.css">
+        <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/owl.transitions.css">
+        <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/style.css">
+        <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/responsive.css">
     </head>
     <body>
 
@@ -84,42 +84,30 @@
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse yamm" id="navigation">
+                              <div class="collapse navbar-collapse yamm" id="navigation">
                     <div class="button navbar-right">
-                        <button class="navbar-btn nav-button wow bounceInRight login" onclick=" window.open('register.html')" data-wow-delay="0.4s">Login</button>
-                        <button class="navbar-btn nav-button wow fadeInRight" onclick=" window.open('submit-property.html')" data-wow-delay="0.5s">Submit</button>
+                        <a href="<?php echo site_url();?>/Login/login_view"><button class="navbar-btn nav-button wow bounceInRight login"  data-wow-delay="0.45s" >Inicia session</button></a>
+                        <button class="navbar-btn nav-button wow fadeInRight" onclick=" window.open('submit-property.html')" data-wow-delay="0.48s">Haz una cita</button>
                     </div>
                     <ul class="main-nav nav navbar-nav navbar-right">
-                        <li class="dropdown ymm-sw " data-wow-delay="0.1s">
-                            <a href="index.html" class="dropdown-toggle active" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Home <b class="caret"></b></a>
-                            <ul class="dropdown-menu navbar-nav">
-                                <li>
-                                    <a href="index-2.html">Home Style 2</a>
-                                </li>
-                                <li>
-                                    <a href="index-3.html">Home Style 3</a>
-                                </li>
-                                <li>
-                                    <a href="index-4.html">Home Style 4</a>
-                                </li>
-                                <li>
-                                    <a href="index-5.html">Home Style 5</a>
-                                </li>
-
-                            </ul>
+                          <li class="" data-wow-delay="0.1s">
+                            <a href="<?php echo site_url();?>/Welcome"   data-hover="dropdown" data-delay="200">Inicio<b class="caret"></b></a>
+                       
                         </li>
 
-                        <li class="wow fadeInDown" data-wow-delay="0.1s"><a class="" href="properties.html">Properties</a></li>
-                        <li class="wow fadeInDown" data-wow-delay="0.1s"><a class="" href="property.html">Property</a></li>
-                        <li class="dropdown yamm-fw" data-wow-delay="0.1s">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Template <b class="caret"></b></a>
+
+                        <li class="wow fadeInDown" data-wow-delay="0.2s"><a class="" href="<?php echo site_url();?>/Properties/proper">Propiedades</a></li>
+                        <li class="wow fadeInDown" data-wow-delay="0.3s"><a class="" href="<?php echo site_url();?>/About/acercaview">Servicios</a></li>
+                        <li class="wow fadeInDown" data-wow-delay="0.3s"><a class="" href="property.html">Galeria</a></li>
+                        <li class="dropdown yamm-fw" data-wow-delay="0.4s">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Galeria <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <div class="yamm-content">
+                                    <!--<div class="yamm-content">
                                         <div class="row">
                                             <div class="col-sm-3">
                                                 <h5>Home pages</h5>
-                                                <ul>
+                                            <ul>
                                                     <li>
                                                         <a href="index.html">Home Style 1</a>
                                                     </li>
@@ -184,12 +172,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- /.yamm-content -->
-                                </li>
+                                     /.yamm-content 
+                                </li>-->
                             </ul>
                         </li>
 
-                        <li class="wow fadeInDown" data-wow-delay="0.4s"><a href="contact.html">Contact</a></li>
+                        <li class="wow fadeInDown" data-wow-delay="0.5s"><a href="<?php echo site_url();?>/Contact/contact_view">Contacto</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -519,23 +507,23 @@
 
         </div>
 
-        <script src="assets/js/modernizr-2.6.2.min.js"></script>
+        <script src="<?php echo base_url();?>/assets/js/modernizr-2.6.2.min.js"></script>
 
-        <script src="assets/js/jquery-1.10.2.min.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
-        <script src="assets/js/bootstrap-select.min.js"></script>
-        <script src="assets/js/bootstrap-hover-dropdown.js"></script>
+        <script src="<?php echo base_url();?>/assets/js/jquery-1.10.2.min.js"></script>
+        <script src="<?php echo base_url();?>/bootstrap/js/bootstrap.min.js"></script>
+        <script src="<?php echo base_url();?>/assets/js/bootstrap-select.min.js"></script>
+        <script src="<?php echo base_url();?>/assets/js/bootstrap-hover-dropdown.js"></script>
 
-        <script src="assets/js/easypiechart.min.js"></script>
-        <script src="assets/js/jquery.easypiechart.min.js"></script>
+        <script src="<?php echo base_url();?>/assets/js/easypiechart.min.js"></script>
+        <script src="<?php echo base_url();?>/assets/js/jquery.easypiechart.min.js"></script>
 
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/wow.js"></script>
+        <script src="<?php echo base_url();?>/assets/js/owl.carousel.min.js"></script>
+        <script src="<?php echo base_url();?>/assets/js/wow.js"></script>
 
-        <script src="assets/js/icheck.min.js"></script>
-        <script src="assets/js/price-range.js"></script>
+        <script src="<?php echo base_url();?>/assets/js/icheck.min.js"></script>
+        <script src="<?php echo base_url();?>/assets/js/price-range.js"></script>
 
-        <script src="assets/js/main.js"></script>
+        <script src="<?php echo base_url();?>/assets/js/main.js"></script>
        
     </body>
 </html>

@@ -48,7 +48,7 @@ public function calendar_view(){
 }
 public function propiedades_view(){
 	$this->load->helper('url');
-	$this->load->view('dashboard/gallery');
+	$this->load->view('properties');
 }
 public function catalogo_view(){
 	$this->load->helper('url');
@@ -61,7 +61,7 @@ public function registroprop_view(){
 	$this->load->helper('url');
 	$this->load->model('Model_show','md',true);
 	$data['query']=$this->md->show_prop();
-	$this->load->view('dashboard/form-common',$data);
+	$this->load->view('dashboard/form-basic',$data);
 }
 
 }

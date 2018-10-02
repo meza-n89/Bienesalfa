@@ -17,7 +17,7 @@ class Contact extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function contact()
+	public function contact_view()
 	{	
 		$this->load->helper('url');
 		$this->load->view('contact');

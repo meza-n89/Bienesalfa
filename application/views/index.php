@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/bootstrap-select.min.css"> 
         <link rel="stylesheet" href="<?php echo base_url();?>/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/icheck.min_all.css">
-        <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/price-range.css"><?php echo base_url();?>/
+        <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/price-range.css">
         <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/owl.carousel.css">  
         <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/owl.theme.css">
         <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/owl.transitions.css">
@@ -75,7 +75,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                    <a class="navbar-brand" href="<?php echo site_url();?>/Dashboard"><img src="assets/img/logo.png" alt=""></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -85,23 +85,23 @@
                         <button class="navbar-btn nav-button wow fadeInRight" onclick=" window.open('submit-property.html')" data-wow-delay="0.48s">Haz una cita</button>
                     </div>
                     <ul class="main-nav nav navbar-nav navbar-right">
-                        <li class="dropdown ymm-sw " data-wow-delay="0.1s">
-                            <a href="index.html" class="dropdown-toggle active" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Inicio<b class="caret"></b></a>
+                        <li class="" data-wow-delay="0.1s">
+                            <a href="<?php echo site_url();?>/Welcome"   data-hover="dropdown" data-delay="200">Inicio<b class="caret"></b></a>
                        
                         </li>
 
-                        <li class="wow fadeInDown" data-wow-delay="0.2s"><a class="" href="properties.html">Propiedades</a></li>
-                        <li class="wow fadeInDown" data-wow-delay="0.3s"><a class="" href="property.html">Servicios</a></li>
+                        <li class="wow fadeInDown" data-wow-delay="0.2s"><a class="" href="<?php echo site_url();?>/Properties/proper">Propiedades</a></li>
+                        <li class="wow fadeInDown" data-wow-delay="0.3s"><a class="" href="<?php echo site_url();?>/About/acercaview">Servicios</a></li>
                         <li class="wow fadeInDown" data-wow-delay="0.3s"><a class="" href="property.html">Galeria</a></li>
                         <li class="dropdown yamm-fw" data-wow-delay="0.4s">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Galeria <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <div class="yamm-content">
+                                    <!--<div class="yamm-content">
                                         <div class="row">
                                             <div class="col-sm-3">
                                                 <h5>Home pages</h5>
-                                                <ul>
+                                            <ul>
                                                     <li>
                                                         <a href="index.html">Home Style 1</a>
                                                     </li>
@@ -166,12 +166,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- /.yamm-content -->
-                                </li>
+                                     /.yamm-content 
+                                </li>-->
                             </ul>
                         </li>
 
-                        <li class="wow fadeInDown" data-wow-delay="0.5s"><a href="contact.html">Contacto</a></li>
+                        <li class="wow fadeInDown" data-wow-delay="0.5s"><a href="<?php echo site_url();?>/Contact/contact_view">Contacto</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -182,9 +182,9 @@
             <div class="slider">
                 <div id="bg-slider" class="owl-carousel owl-theme">
 
-                    <div class="item"><img src="<?php echo base_url();?>assets/img/slide1/slider-image-1.jpg" alt="GTA V"></div>
-                    <div class="item"><img src="<?php echo base_url();?>assets/img/slide1/slider-image-2.jpg" alt="The Last of us"></div>
-                    <div class="item"><img src="<?php echo base_url();?>assets/img/slide1/slider-image-1.jpg" alt="GTA V"></div>
+                    <div class="item"><img src="<?php echo base_url();?>assets/img/slide1/slide1.jpg" alt="GTA V"></div>
+                    <div class="item"><img src="<?php echo base_url();?>assets/img/slide1/slide2.jpg" alt="The Last of us"></div>
+                    <div class="item"><img src="<?php echo base_url();?>assets/img/slide1/slide3.jpg" alt="GTA V"></div>
 
                 </div>
             </div>
@@ -349,9 +349,9 @@
                                     <i class="fa fa-th"></i>
                                 </div>
                                 <div class="more-entry overflow">
-                                    <h5><a href="property-1.html" >CAN'T DECIDE ? </a></h5>
-                                    <h5 class="tree-sub-ttl">Show all properties</h5>
-                                    <button class="btn border-btn more-black" value="All properties">All properties</button>
+                                    <h5><a href="property-1.html" >No puedes decidir ? </a></h5>
+                                    <h5 class="tree-sub-ttl">Mostrar todas las propiedades</h5>
+                                    <button class="btn border-btn more-black" value="All properties">propiedades</button>
                                 </div>
                             </div>
                         </div>
@@ -371,7 +371,7 @@
                                 <div class="row">
                                     <div class="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
                                         <!-- /.feature title -->
-                                        <h2>GARO ESTATE </h2>
+                                        <h2>bienes raices</h2>
                                     </div>
                                 </div>
                             </div>
@@ -384,7 +384,7 @@
                                             <div class="welcome-icon">
                                                 <i class="pe-7s-home pe-4x"></i>
                                             </div>
-                                            <h3>Any property</h3>
+                                            <h3>Cualquier propiedad</h3>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 m-padding">
@@ -392,7 +392,7 @@
                                             <div class="welcome-icon">
                                                 <i class="pe-7s-users pe-4x"></i>
                                             </div>
-                                            <h3>More Clients</h3>
+                                            <h3>Mas clientes</h3>
                                         </div>
                                     </div>
 
@@ -406,7 +406,7 @@
                                             <div class="welcome-icon">
                                                 <i class="pe-7s-notebook pe-4x"></i>
                                             </div>
-                                            <h3>Easy to use</h3>
+                                            <h3>Facil de usar</h3>
                                         </div>
                                     </div>
                                     <div class="col-xs-6 m-padding">
@@ -414,7 +414,7 @@
                                             <div class="welcome-icon">
                                                 <i class="pe-7s-help2 pe-4x"></i>
                                             </div>
-                                            <h3>Any help </h3>
+                                            <h3>Ayuda?</h3>
                                         </div>
                                     </div>
 
@@ -432,7 +432,7 @@
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
                         <!-- /.feature title -->
-                        <h2>Our Customers Said  </h2> 
+                        <h2>La opinion de nuestros clientes</h2> 
                     </div>
                 </div>
 
@@ -490,7 +490,7 @@
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
                         <!-- /.feature title -->
-                        <h2>You can trust Us </h2> 
+                        <h2>Vende o adquiere tu propiedad con los mejores </h2> 
                     </div>
                 </div>
                 <div class="row">
@@ -503,7 +503,7 @@
                                     </div>
                                     <div class="chart" data-percent="5000">
                                         <h2 class="percent" id="counter">0</h2>
-                                        <h5>HAPPY CUSTOMER </h5>
+                                        <h5>Cientes satisfechos</h5>
                                     </div>
                                 </div>
                             </div>
@@ -514,33 +514,12 @@
                                     </div>
                                     <div class="chart" data-percent="12000">
                                         <h2 class="percent" id="counter1">0</h2>
-                                        <h5>Properties in stock</h5>
+                                        <h5>propiedades en stock</h5>
                                     </div>
                                 </div> 
                             </div> 
-                            <div class="col-sm-3 col-xs-6">
-                                <div class="count-item">
-                                    <div class="count-item-circle">
-                                        <span class="pe-7s-flag"></span>
-                                    </div>
-                                    <div class="chart" data-percent="120">
-                                        <h2 class="percent" id="counter2">0</h2>
-                                        <h5>City registered </h5>
-                                    </div>
-                                </div> 
-                            </div> 
-                            <div class="col-sm-3 col-xs-6">
-                                <div class="count-item">
-                                    <div class="count-item-circle">
-                                        <span class="pe-7s-graph2"></span>
-                                    </div>
-                                    <div class="chart" data-percent="5000">
-                                        <h2 class="percent"  id="counter3">5000</h2>
-                                        <h5>DEALER BRANCHES</h5>
-                                    </div>
-                                </div> 
-
-                            </div>
+                      
+                        
                         </div>
                     </div>
                 </div>

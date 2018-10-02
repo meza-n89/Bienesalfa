@@ -23,7 +23,7 @@ class About extends CI_Controller {
 	public function acercaview()
 	{	
 		$this->load->helper('url');
-		$this->load->view('about');
+		$this->load->view('single');
 	}
 }
 
